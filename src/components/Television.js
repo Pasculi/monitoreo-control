@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Nav.css'
 import {Link, Outlet } from 'react-router-dom'
 
 
@@ -6,8 +7,8 @@ const Television = () => {
   return (
     <>
       <ul>
-        <li className="nav__list-item"><Link className="nav__items" to='buscador'>Buscador</Link></li>
-            <li className="nav__list-item"><Link className="nav__items" to="checklist">Checklist</Link></li>
+        <li className="nav__list-item"><Link className="nav__list-subItem" to='buscador'>Buscador</Link></li>
+            <li className="nav__list-item"><Link className="nav__list-subItem" to="checklist">Checklist</Link></li>
           </ul>
     
     <Outlet />

@@ -12,14 +12,11 @@ const Routers = () => {
         <li className="nav__list-item"><Link className="nav__items" to="/">Inicio</Link></li>
         <li className="nav__list-item"><Link className="nav__items" to="/datos-internet">Datos e Internet</Link></li>
         <li className="nav__list-item"><Link className="nav__items" to="/television">Televisión
-          {/* <ul>
-            <li className="nav__list-item"><Link className="nav__items" to={`/buscador`}>Buscador</Link></li>
-            <li className="nav__list-item"><Link className="nav__items" to="/television/datos-internet">Checklist</Link></li>
-          </ul> */}
+          
         </Link></li>
         <li className="nav__list-item"><Link className="nav__items" to="/transporte">Transporte</Link></li>
         <li className="nav__list-item"><Link className="nav__items" to={`/users`}>Usuarios</Link></li>
-        {/* <li className="nav__list-item"><Link className="nav__items" to={`/users/:${id}`}>Usuarios2</Link></li> */}
+        
 
       </ul>
     </>

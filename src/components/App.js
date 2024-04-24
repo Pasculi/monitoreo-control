@@ -20,7 +20,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/datos-internet" element={<Navigate to="/" />} />
+        <Route path="/datos-internet" element={<Navigate to="https://www.google.cl/?hl=es" />} />
         <Route path="/television/*" element={<Television />}>
           <Route path={`buscador`} element={<Buscador />} />
           <Route path={`checklist`} element={<Checklist />} />

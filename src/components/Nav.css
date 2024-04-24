@@ -34,3 +34,11 @@
 .nav__list-item:hover{
     background: #dd8c01;
 }
+.nav__list-subItem{
+    text-decoration: none;
+    color:#375D9D;
+    font-weight: bold;
+}
+.nav__list-subItem:hover{
+    color:#fff;
+}
