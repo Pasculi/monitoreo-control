@@ -2,7 +2,7 @@ import React from 'react'
 
 const Checklist = () => {
   return (
-    <div>Checklist</div>
+    <h1>Checklist</h1>
   )
 }
 
