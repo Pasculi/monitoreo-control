@@ -33,6 +33,7 @@
 }
 .nav__list-item:hover{
     background: #dd8c01;
+    color:#fff;
 }
 .nav__list-subItem{
     text-decoration: none;
