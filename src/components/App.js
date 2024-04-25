@@ -12,12 +12,18 @@ import Checklist from './Checklist';
 import NotFoundPage from './NotFoundPage';
 import UserPage from './UserPage';
 import UsersPage from './UsersPage';
+import Padre from './Padre';
+
 
 function App() {
+
+  
+
   return (
     <div className="container">
       <Header />
       <Nav />
+      <Padre />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/datos-internet" element={<Navigate to="https://www.google.cl/?hl=es" />} />
